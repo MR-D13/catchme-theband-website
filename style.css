@@ -278,6 +278,7 @@ header{
 .img-fluid-gallery {
     width: 340px;
     height: 275px;
+    object-fit: cover;
     border-radius: 10px;
     box-shadow: 5px 4px 8px var(--BG);
     transition: 0.3s ease-in-out;

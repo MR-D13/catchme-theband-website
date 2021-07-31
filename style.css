@@ -63,28 +63,89 @@ nav{
 /* HEADER */
 
 header{
-    padding: 120px 0px;
+    padding: 90px 0px;
     background: black;
 }
 
-.hdText{
-    padding-top: 25px;
-    font-size: 20px;
-    font-style: italic;
+.hdTextOne{
+    padding-bottom: 20px;
+    font-size: 26px;
     letter-spacing: 4px;
     color: var(--BC);
     text-shadow: 3px 3px 1px var(--RS);
 }
 
 @media screen and (max-width:375px){
-    .hdText{
-        font-size: 18px; 
+    .hdTextOne{
+        font-size: 20px; 
+        color: var(--BC);
+        text-shadow: 3px 3px 1px var(--RS);
     }
 }
 
 @media screen and (max-width:330px){
-    .hdText{
-        font-size: 15px; 
+    .hdTextOne{
+        font-size: 16px;
+        color: var(--BC);
+        text-shadow: 3px 3px 1px var(--RS); 
+    }
+}
+
+.newTrack{
+    border: 4px solid var(--BC);
+    box-shadow: 7px 6px 5px 2px var(--RS);
+    padding: 50px 0px;
+}
+
+.hdTextTwo{
+    padding-top: 60px;
+    font-size: 20px;
+    letter-spacing: 4px;
+    color: var(--BC);
+    text-shadow: 3px 3px 1px var(--RS);
+}
+
+@media screen and (max-width:375px){
+    .hdTextTwo{
+        font-size: 16px;
+        color: var(--BC);
+        text-shadow: 3px 3px 1px var(--RS); 
+    }
+}
+
+@media screen and (max-width:330px){
+    .hdTextTwo{
+        font-size: 15px;
+        color: var(--BC);
+        text-shadow: 3px 3px 1px var(--RS); 
+    }
+}
+
+@media screen and (max-width: 768px){
+    .newTrack{
+        padding: 5px 0px;
+        border: 2px solid var(--BC);
+        box-shadow: 3px 3px 3px 2px var(--RS);
+    }
+    .hdTextOne{
+        padding-bottom: 10px;
+    }
+    .hdTextTwo{
+        padding-top: 25px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .newTrack{
+        padding: 5px 0px;
+        border: 2px solid var(--BC);
+        box-shadow: 3px 3px 3px 2px var(--RS);
+    }
+    .hdTextOne{
+        padding-bottom: 5px;
+    }
+    .hdTextTwo{
+        padding-top: 20px;
     }
 }
 
